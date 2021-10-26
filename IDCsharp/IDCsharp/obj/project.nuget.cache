@@ -1,8 +1,33 @@
 {
   "version": 2,
-  "dgSpecHash": "OE5vzaxbu/sBJ20dlEG1AMXYn9WFlhfE5lEWOUfFgkdf5BohcqEHEfRg/XKb/fgSid+GevGK17qktQj7HF23jg==",
+  "dgSpecHash": "F2LkBkmgDzN0ZOlvKYLM98t0eOPsZHxIJB39g4kzPgb9n7P9724I7GFw1fXMm838F0Vawy6VKBR0vexqXtj78A==",
   "success": true,
   "projectFilePath": "/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/IDCsharp.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "/Users/cjcs1/.nuget/packages/entityframework/5.0.0/entityframework.5.0.0.nupkg.sha512",
+    "/Users/cjcs1/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/cjcs1/.nuget/packages/system.data.entity.repository/2.0.0.1/system.data.entity.repository.2.0.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EntityFramework 5.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Data.Entity.Repository 2.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Data.Entity.Repository",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
