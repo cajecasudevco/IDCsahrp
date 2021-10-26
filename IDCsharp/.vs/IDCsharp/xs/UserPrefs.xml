@@ -1,15 +1,21 @@
 ﻿<Properties StartupConfiguration="{F267F89A-94D4-4774-A585-0D6070B204FF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IDCsharp/VideoService/FileReader.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IDCsharp.Tests/VideoService/FakeFileReader.cs">
     <Files>
-      <File FileName="IDCsharp/VideoService/FileReader.cs" Line="1" Column="1" />
+      <File FileName="IDCsharp/VideoService/FileReader.cs" Line="10" Column="6" />
+      <File FileName="IDCsharp/VideoService/VideoService.cs" Line="14" Column="10" />
+      <File FileName="IDCsharp.Tests/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="IDCsharp.Tests/VideoService/FakeFileReader.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="IDCsharp" expanded="True">
             <Node name="IDCsharp" expanded="True">
+              <Node name="VideoService" expanded="True" />
+            </Node>
+            <Node name="IDCsharp.Tests" expanded="True">
               <Node name="VideoService" expanded="True">
-                <Node name="FileReader.cs" selected="True" />
+                <Node name="FakeFileReader.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -26,4 +32,5 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.IDCsharp.Tests FirstBuild="True" />
 </Properties>
