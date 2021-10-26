@@ -1,7 +1,6 @@
 ﻿<Properties StartupConfiguration="{F267F89A-94D4-4774-A585-0D6070B204FF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IDCsharp/VideoService/VideoService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IDCsharp/VideoService/FileReader.cs">
     <Files>
-      <File FileName="IDCsharp/VideoService/VideoService.cs" Line="16" Column="9" />
       <File FileName="IDCsharp/VideoService/FileReader.cs" Line="1" Column="1" />
     </Files>
     <Pads>
@@ -10,7 +9,7 @@
           <Node name="IDCsharp" expanded="True">
             <Node name="IDCsharp" expanded="True">
               <Node name="VideoService" expanded="True">
-                <Node name="VideoService.cs" selected="True" />
+                <Node name="FileReader.cs" selected="True" />
               </Node>
             </Node>
           </Node>
