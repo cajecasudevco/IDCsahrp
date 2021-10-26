@@ -1,10 +1,17 @@
 ﻿<Properties StartupConfiguration="{F267F89A-94D4-4774-A585-0D6070B204FF}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="IDCsharp/VideoService/VideoService.cs">
+    <Files>
+      <File FileName="IDCsharp/VideoService/VideoService.cs" Line="16" Column="51" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="IDCsharp" expanded="True">
-            <Node name="IDCsharp" expanded="True" selected="True" />
+            <Node name="IDCsharp" expanded="True">
+              <Node name="VideoService" expanded="True">
+                <Node name="VideoService.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -15,7 +22,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/VideoService/VideoService.cs" relfile="IDCsharp/VideoService/VideoService.cs" line="13" column="1" />
+      <Breakpoint file="/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/VideoService/VideoService.cs" relfile="IDCsharp/VideoService/VideoService.cs" line="14" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
