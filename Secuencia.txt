@@ -1,0 +1,9 @@
+RAMA MASTER --> Hello WORLD
+RAMA VideoServiceA -- > Feature Video Service
+RAMA VideoServiceB -- > Desacople clase file reader
+RAMA VideoServiceC -- > Interfaz e Implementacion
+RAMA VideoServiceD -- > I.D. por Parametro, New file reader, Fake filereader
+RAMA VideoServiceE -- > I.D. por Property modifico Test
+RAMA VideoServiceF -- > I.D Por Constructor, TEST
+RAMA VideoServiceG -- > Moq y Ajuste en Test
+RAMA VideoServiceH -- > Ultimo
