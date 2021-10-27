@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "LlsdoP9BEX6/cW/oexU6MPIdI8z5DCJh87DcxgdcY2ahlmJmjMm46DXFG6J2HASeG1x/RfNNBFU4faEebs2qZQ==",
+  "dgSpecHash": "wV4nPwqV9gT9Y9DWtyVCBWYU48YABT6T6ZlDzZcrW6gS/VKrrqivkXbs2scKPIDlRAMv6s6Q1j4RHS6uX+8kJw==",
   "success": true,
   "projectFilePath": "/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp.Tests/IDCsharp.Tests.csproj",
   "expectedPackageFiles": [
-    "/Users/cjcs1/.nuget/packages/entityframework/5.0.0/entityframework.5.0.0.nupkg.sha512",
     "/Users/cjcs1/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
     "/Users/cjcs1/.nuget/packages/microsoft.dotnet.internalabstractions/1.0.0/microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
     "/Users/cjcs1/.nuget/packages/microsoft.net.test.sdk/16.5.0/microsoft.net.test.sdk.16.5.0.nupkg.sha512",
@@ -28,7 +27,6 @@
     "/Users/cjcs1/.nuget/packages/system.componentmodel.eventbasedasync/4.3.0/system.componentmodel.eventbasedasync.4.3.0.nupkg.sha512",
     "/Users/cjcs1/.nuget/packages/system.componentmodel.primitives/4.3.0/system.componentmodel.primitives.4.3.0.nupkg.sha512",
     "/Users/cjcs1/.nuget/packages/system.componentmodel.typeconverter/4.3.0/system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
-    "/Users/cjcs1/.nuget/packages/system.data.entity.repository/2.0.0.1/system.data.entity.repository.2.0.0.1.nupkg.sha512",
     "/Users/cjcs1/.nuget/packages/system.diagnostics.debug/4.3.0/system.diagnostics.debug.4.3.0.nupkg.sha512",
     "/Users/cjcs1/.nuget/packages/system.diagnostics.process/4.3.0/system.diagnostics.process.4.3.0.nupkg.sha512",
     "/Users/cjcs1/.nuget/packages/system.globalization/4.3.0/system.globalization.4.3.0.nupkg.sha512",
@@ -60,26 +58,5 @@
     "/Users/cjcs1/.nuget/packages/system.xml.xpath/4.3.0/system.xml.xpath.4.3.0.nupkg.sha512",
     "/Users/cjcs1/.nuget/packages/system.xml.xpath.xmldocument/4.3.0/system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'EntityFramework 5.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "EntityFramework",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Data.Entity.Repository 2.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "System.Data.Entity.Repository",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

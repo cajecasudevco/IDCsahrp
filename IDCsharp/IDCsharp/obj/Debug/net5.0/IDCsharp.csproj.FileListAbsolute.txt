@@ -1,0 +1,16 @@
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/bin/Debug/net5.0/IDCsharp.deps.json
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/bin/Debug/net5.0/IDCsharp.runtimeconfig.json
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/bin/Debug/net5.0/IDCsharp.runtimeconfig.dev.json
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/bin/Debug/net5.0/IDCsharp.dll
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/bin/Debug/net5.0/ref/IDCsharp.dll
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/bin/Debug/net5.0/IDCsharp.pdb
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/obj/Debug/net5.0/IDCsharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/obj/Debug/net5.0/IDCsharp.AssemblyInfoInputs.cache
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/obj/Debug/net5.0/IDCsharp.AssemblyInfo.cs
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/obj/Debug/net5.0/IDCsharp.csproj.CoreCompileInputs.cache
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/obj/Debug/net5.0/IDCsharp.csproj.CopyComplete
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/obj/Debug/net5.0/IDCsharp.dll
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/obj/Debug/net5.0/ref/IDCsharp.dll
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/obj/Debug/net5.0/IDCsharp.pdb
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp/obj/Debug/net5.0/IDCsharp.genruntimeconfig.cache

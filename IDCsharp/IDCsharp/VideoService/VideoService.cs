@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 
 
@@ -10,32 +6,16 @@ namespace IDCsharp.VideoService
 {
     public class VideoService
     {
-        public string ReadVideoTitle()
+        public string ReadVideoTitle(IFileReader filereader )
         {
-            var str = new FileReader().Read("video.txt");
+            var str = filereader.Read("video.txt");
             var video = JsonConvert.DeserializeObject<Video>(str);
             if (video == null)
                 return "Error parsing the video.";
             return video.Title;
         }
 
-        public string GetUnprocessedVideosAsCsv()
-        {
-            var videoIds = new List<int>();
 
-            using (var context = new VideoContext())
-            {
-                var videos =
-                    (from video in context.Videos
-                     where !video.IsProcessed
-                     select video).ToList();
-
-                foreach (var v in videos)
-                    videoIds.Add(v.Id);
-
-                return String.Join(",", videoIds);
-            }
-        }
     }
 
     public class Video
@@ -44,9 +24,5 @@ namespace IDCsharp.VideoService
         public string Title { get; set; }
         public bool IsProcessed { get; set; }
     }
-
-    public class VideoContext : DbContext
-    {
-        public DbSet<Video> Videos { get; set; }
-    }
+        
 }

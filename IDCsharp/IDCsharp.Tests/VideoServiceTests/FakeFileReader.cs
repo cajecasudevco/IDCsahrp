@@ -2,7 +2,8 @@
 using IDCsharp.VideoService;
 
 
-namespace IDCsharp.Tests.VideoService
+
+namespace IDCsharp.Tests.VideoServiceTests
 {
     public class FakeFileReader : IFileReader
     {

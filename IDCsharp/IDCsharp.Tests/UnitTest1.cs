@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using IDCsharp.VideoService;
 
 namespace IDCsharp.Tests
 {
@@ -7,6 +8,7 @@ namespace IDCsharp.Tests
         [SetUp]
         public void Setup()
         {
+
         }
 
         [Test]

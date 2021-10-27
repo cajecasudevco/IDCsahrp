@@ -21,4 +21,10 @@
   <ItemGroup>
     <ProjectReference Include="..\IDCsharp\IDCsharp.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="VideoService\VideoServiceTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VideoService\VideoServiceTests.cs" />
+  </ItemGroup>
 </Project>
