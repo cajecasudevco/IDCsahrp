@@ -13,7 +13,9 @@ namespace IDCsharp.Tests.VideoServiceTests
         {
             var service = new VideoService.VideoService();
 
-            var result = service.ReadVideoTitle(new FakeFileReader());
+            service.FileReader = new FakeFileReader();
+
+            var result = service.ReadVideoTitle();
 
             Assert.That(result, Does.Contain("Error").IgnoreCase);
 

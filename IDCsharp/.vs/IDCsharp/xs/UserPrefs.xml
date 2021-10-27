@@ -1,22 +1,21 @@
 ﻿<Properties StartupConfiguration="{F267F89A-94D4-4774-A585-0D6070B204FF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IDCsharp/VideoService/VideoService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IDCsharp.Tests/VideoServiceTests/VideoServiceTests.cs">
     <Files>
-      <File FileName="IDCsharp.Tests/VideoService/VideoServiceTests.cs" Line="19" Column="1" />
-      <File FileName="IDCsharp/VideoService/FileReader.cs" Line="18" Column="10" />
-      <File FileName="IDCsharp.Tests/VideoServiceTests/FakeFileReader.cs" Line="1" Column="1" />
-      <File FileName="IDCsharp/VideoService/VideoService.cs" Line="9" Column="60" />
+      <File FileName="IDCsharp/VideoService/FileReader.cs" Line="1" Column="1" />
+      <File FileName="IDCsharp/VideoService/VideoService.cs" Line="15" Column="1" />
+      <File FileName="IDCsharp.Tests/VideoServiceTests/VideoServiceTests.cs" Line="16" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="IDCsharp" expanded="True">
             <Node name="IDCsharp" expanded="True">
-              <Node name="VideoService" expanded="True">
-                <Node name="VideoService.cs" selected="True" />
-              </Node>
+              <Node name="VideoService" expanded="True" />
             </Node>
             <Node name="IDCsharp.Tests" expanded="True">
-              <Node name="VideoServiceTests" expanded="True" />
+              <Node name="VideoServiceTests" expanded="True">
+                <Node name="VideoServiceTests.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
