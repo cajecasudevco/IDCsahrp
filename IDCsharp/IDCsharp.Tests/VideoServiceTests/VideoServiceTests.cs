@@ -11,9 +11,7 @@ namespace IDCsharp.Tests.VideoServiceTests
         [Test]
         public void ReadVideoTitle_EmptyFile_return_Error()
         {
-            var service = new VideoService.VideoService();
-
-            service.FileReader = new FakeFileReader();
+            var service = new VideoService.VideoService(new FakeFileReader());
 
             var result = service.ReadVideoTitle();
 

@@ -6,17 +6,29 @@ namespace IDCsharp.VideoService
 {
     public class VideoService
     {
-        public IFileReader FileReader { get; set; }
+        private IFileReader _fileReader;
 
         public VideoService()
         {
-            FileReader = new FileReader();
+            _fileReader = new FileReader();
         }
+
+        public VideoService(IFileReader fileReader)
+        {
+            _fileReader =  fileReader;
+        }
+
+        //MEJORA
+
+        //public VideoService(IFileReader fileReader = null)
+        //{
+        //    _fileReader = fileReader ?? new FileReader();
+        //}
 
 
         public string ReadVideoTitle()
         {
-            var str = FileReader.Read("video.txt");
+            var str = _fileReader.Read("video.txt");
             var video = JsonConvert.DeserializeObject<Video>(str);
             if (video == null)
                 return "Error parsing the video.";
