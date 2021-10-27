@@ -102,3 +102,5 @@
 /Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp.Tests/obj/Debug/net5.0/IDCsharp.Tests.pdb
 /Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp.Tests/obj/Debug/net5.0/IDCsharp.Tests.genruntimeconfig.cache
 /Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp.Tests/obj/Debug/net5.0/IDCsharp.Tests.csproj.AssemblyReference.cache
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp.Tests/bin/Debug/net5.0/Castle.Core.dll
+/Users/cjcs1/Documents/devsecops/UNITTESTCS/practicas/IDCsahrp/IDCsharp/IDCsharp.Tests/bin/Debug/net5.0/Moq.dll

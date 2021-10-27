@@ -1,7 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
-
-
+using IDCsharp.VideoService;
+using Moq;
 
 namespace IDCsharp.Tests.VideoServiceTests
 {
@@ -11,7 +11,11 @@ namespace IDCsharp.Tests.VideoServiceTests
         [Test]
         public void ReadVideoTitle_EmptyFile_return_Error()
         {
-            var service = new VideoService.VideoService(new FakeFileReader());
+            var mockFilereader = new Mock<IFileReader>();
+            mockFilereader.Setup(fr => fr.Read("video.txt")).Returns("");
+
+
+            var service = new VideoService.VideoService(mockFilereader.Object);
 
             var result = service.ReadVideoTitle();
 

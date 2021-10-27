@@ -10,13 +10,15 @@
     <PackageReference Include="NUnit" Version="3.12.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="Moq" Version="4.16.1" />
   </ItemGroup>
 
   <ItemGroup>
     <None Remove="VideoService\" />
+    <None Remove="Moq" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="VideoService\" />
+    <Folder Include="VideoServiceTests\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\IDCsharp\IDCsharp.csproj" />
@@ -25,6 +27,6 @@
     <Compile Remove="VideoService\VideoServiceTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="VideoService\VideoServiceTests.cs" />
+    <Content Include="VideoServiceTests\VideoServiceTests.cs" />
   </ItemGroup>
 </Project>
